@@ -398,3 +398,42 @@ body {
     background-color: var(--hover-color);
     border: 1px solid var(--hover-color);
 }
+
+.sidebar::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #33333350; 
+    border-radius: 10px;
+    border: 2px solid transparent; 
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #606060; 
+    transition: background-color 0.1s ease; 
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 8px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    
+    background-color: #606060; 
+    border-radius: 10px;
+    border: 2px solid transparent; 
+}
+
+body:hover::-webkit-scrollbar-thumb {
+    background-color: #606060; 
+    transition: background-color 0.1s ease; 
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
